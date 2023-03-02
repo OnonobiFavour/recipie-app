@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  color: #fff;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ff3f;
+}
+.load_wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.load{
+  width: 150px;
+  height: 150px;
+  margin: 2rem;
+  border: 20px;
+  border-bottom: 13px solid green;
+  /* border-top: 13px solid rgba(34, 171, 34, 0.788); */
+  border-radius: 100%;
+  animation-name: load;
+  animation-timing-function: linear;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-delay: 1ms;
+}
+@keyframes load{
+  from{
+    transform: rotateZ(0deg);
+  }
+  to{
+    transform: rotateZ(360deg);
+  }
+}

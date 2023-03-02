@@ -1,0 +1,27 @@
+.letters{
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; */
+    padding: 1rem;
+    color: #fff;
+    background-color: rgba(44, 31, 12, 0.681);
+    display: block;
+    place-items: center;
+    margin: 0 auto;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+.letter-style{
+    text-align: center;
+    padding: 10px;
+    margin: 3px;
+    width: 40px;
+    outline: none;
+    border-radius: 5px;
+    color: brown;
+    font-weight: bolder;
+    border: none;
+}
